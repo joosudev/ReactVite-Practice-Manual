@@ -1,5 +1,7 @@
 import  { useRef, useState } from 'react'
 
+/** Variables en React  */
+
 const Avariables = () => {
    // 1. Variables Locales (Scope limitado al redenrizado actual)
    const varLocal = "Variable Local";
@@ -37,7 +39,7 @@ const Avariables = () => {
          <button onClick={updateRefVar}>Actualizar Referencia</button>
          <p>{constantVar}</p>
          <p>{globalVar}</p>
-        </div>
+      </div>
     </div>
   )
 }
